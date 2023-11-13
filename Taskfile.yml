@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  ssh-tunnel:
+    cmds:
+      - sh ./scripts/ssh_tunnel.sh
+  s3-export:
+    cmds:
+      - sh ./scripts/s3-export.sh
+  file-export:
+    cmds:
+      - sh ./scripts/file-export.sh
+
