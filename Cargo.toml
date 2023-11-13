@@ -1,7 +1,9 @@
 [package]
-name = "polly_export"
+name = "table_to_speech"
 version = "0.1.0"
 edition = "2021"
+authors = ["Daniel Pape"]
+description = "Export text from data base table as speech"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
